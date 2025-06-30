@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "universe",
+	"version": "${version}",
+	"name": "Universe",
+	"description": "你想坐火箭吗？ 你想在宇宙中穿梭吗? 本模组添加了一系列与太空相关的物品与生物，让你的梦想在Minecraft里实现！",
+	"authors": [
+		"Yaw_cat"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/universe/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.yaw.universe.Universe"
+		],
+		"fabric-datagen": [
+			"com.yaw.universe.UniverseDataGenerator"
+		],
+		"client": [
+			"com.yaw.universe.UniverseClient"
+		]
+	},
+	"mixins": [
+		"universe.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
