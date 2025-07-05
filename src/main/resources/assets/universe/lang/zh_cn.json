@@ -1,3 +1,9 @@
 {
-  "item.universe.aluminum_ingot": "铝合金锭"
+  "block.universe.aluminum_block": "铝合金块",
+  "block.universe.aluminum_ore": "浅层铝合金矿石",
+  "block.universe.titanium_block": "钛合金块",
+  "block.universe.titanium_ore": "钛合金矿石",
+  "item.universe.aluminum_ingot": "铝合金锭",
+  "item.universe.titanium_ingot": "钛合金锭",
+  "itemGroup.universe_group": "Universe开发者物品"
 }

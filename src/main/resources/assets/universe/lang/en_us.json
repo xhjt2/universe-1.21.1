@@ -1,3 +1,9 @@
 {
-  "item.universe.aluminum_ingot": "Aluminum ingot"
+  "block.universe.aluminum_block": "Aluminum Block",
+  "block.universe.aluminum_ore": "Shallow Aluminum Ore",
+  "block.universe.titanium_block": "Titanium Block",
+  "block.universe.titanium_ore": "Titanium Ore",
+  "item.universe.aluminum_ingot": "Aluminum ingot",
+  "item.universe.titanium_ingot": "Titanium ingot",
+  "itemGroup.universe_group": "Universe Dev Items"
 }

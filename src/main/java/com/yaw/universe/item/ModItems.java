@@ -14,18 +14,21 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     // 注册物品
     public static final Item ALUMINIUM_INGOT = registerItems("aluminum_ingot", new Item(new Item.Settings()));
+    public static final Item TITANIUM_INGOT = registerItems("titanium_ingot", new Item(new Item.Settings()));
     private static Item registerItems(String id, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Universe.MOD_ID, id), item);
     }
 
-    //添加物品组
+    //将物品添加物品组
     private static void addItemToIG(FabricItemGroupEntries fabricItemGroupEntries){
         fabricItemGroupEntries.add(ALUMINIUM_INGOT);
+        fabricItemGroupEntries.add(TITANIUM_INGOT);
     }
 
     //在Loading界面注册物品和物品组，同时控制台加载显示注册信息
         public static void registerModItems(){
-            ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemToIG);
+        //斜体INGREDIENTS标识原版物品栏“原材料”分组
+        //    ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemToIG);
             Universe.LOGGER.info("Registering ModItems for " + Universe.MOD_ID);
     }
 }

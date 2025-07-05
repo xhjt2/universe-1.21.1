@@ -1,6 +1,8 @@
 package com.yaw.universe;
 
+import com.yaw.universe.block.ModBlock;
 import com.yaw.universe.item.ModItems;
+import com.yaw.universe.item.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -21,6 +23,12 @@ public class Universe implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerModItemGroups();
+		ModBlock.registerModBlocks();
+
+		LOGGER.info("\n" +
+                "Universe mod is ready" + "\n" +
+				"Universe mod Author: " + "Yaw_cat" + "\n" +
+				"Universe mod Version: 0.1.0-1.21.1\n" );
 	}
 }
