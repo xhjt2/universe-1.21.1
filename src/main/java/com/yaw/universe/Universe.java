@@ -28,7 +28,7 @@ public class Universe implements ModInitializer {
 
 		LOGGER.info("\n" +
                 "Universe mod is ready" + "\n" +
-				"Universe mod Author: " + "Yaw_cat" + "\n" +
+				"Universe mod Authors: " + "Yaw_cat" + "\n" +
 				"Universe mod Version: 0.1.0-1.21.1\n" );
 	}
 }

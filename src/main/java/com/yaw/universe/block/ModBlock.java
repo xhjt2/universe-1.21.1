@@ -11,8 +11,8 @@ import net.minecraft.util.Identifier;
 
 public class ModBlock {
     // 注册方块(可在下列添加更多方块)
-    public static final Block ALUMINIUM_BLOCK = register("aluminium_block", new Block(AbstractBlock.Settings.create().strength(4.5f, 6.0f)));
-    public static final Block ALUMINIUM_ORE = register("aluminium_ore", new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f)));
+    public static final Block ALUMINUM_BLOCK = register("aluminum_block", new Block(AbstractBlock.Settings.create().strength(4.5f, 6.0f)));
+    public static final Block ALUMINUM_ORE = register("aluminum_ore", new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f)));
     public static final Block TITANIUM_BLOCK = register("titanium_block", new Block(AbstractBlock.Settings.create().strength(4.5f, 6.0f)));
     public static final Block TITANIUM_ORE = register("titanium_ore", new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f)));
 

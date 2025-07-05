@@ -19,8 +19,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.ALUMINIUM_INGOT))
                     .entries((displayContext, entries) -> {
                         // 可以在这里添加更多物品
-                        entries.add(ModBlock.ALUMINIUM_ORE);
-                        entries.add(ModBlock.ALUMINIUM_BLOCK);
+                        entries.add(ModBlock.ALUMINUM_ORE);
+                        entries.add(ModBlock.ALUMINUM_BLOCK);
                         entries.add(ModItems.ALUMINIUM_INGOT);
                         entries.add(ModItems.TITANIUM_INGOT);
                         entries.add(ModBlock.TITANIUM_ORE);
