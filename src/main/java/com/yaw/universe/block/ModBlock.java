@@ -16,7 +16,7 @@ public class ModBlock {
     public static final Block TITANIUM_BLOCK = register("titanium_block", new Block(AbstractBlock.Settings.create().strength(4.5f, 6.0f)));
     public static final Block TITANIUM_ORE = register("titanium_ore", new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f)));
 
-    // 注册方块物品(以物品形式呈现的方块)
+    // 注册方块物品(以物品形式呈现的方块物品)
     public static void registerBlockItems(String id, Block block) {
         Item item = Registry.register(Registries.ITEM, Identifier.of(Universe.MOD_ID, id), new BlockItem(block, new Item.Settings()));
         if (item instanceof BlockItem) {
